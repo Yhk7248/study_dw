@@ -4,5 +4,14 @@
 4. 앱은 자바 안드로이드, 코틀린, 리액트, 플러터 등으로 개발
 5. 웹으로 구현하려면 flask, 리액트, 플러터 3개 중 하나로 개발.
 6. proto 파일을 작성하는 문법은 따로 찾아봐야 할 거 같음.
+-> 우선 pip install -r requirements.txt 실행해서 라이브러리 설치하고 테스트.
 
-우선 pip install -r requirements.txt 실행해서 라이브러리 설치하고 테스트.
+################################################################################################################
+flask socket chat example: https://bokyeong-kim.github.io/python/flask/2020/05/09/flask(1).html
+flask socket-io: https://pypi.org/project/Flask-SocketIO/
+
+위 예제는 일반 websocket 이지만 아래 threaded socket 라이브러리 보면 thread로 띄우는 것도 가능해보임.
+################################################################################################################
+
+flask threaded sockets: https://pypi.org/project/flask-threaded-sockets/
+protobuf pypi: https://pypi.org/project/protobuf/
