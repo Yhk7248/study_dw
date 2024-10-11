@@ -1,9 +1,10 @@
 class TreeNode:
     def __init__(self, value):
         self.value = value
-        self.children = []
+        self.children: list[TreeNode] = []  #
 
     def add_child(self, child_node):
+        # TreeNode
         self.children.append(child_node)
 
     def __repr__(self, level=0):        # string 으로 출력될 때 format 결정.

@@ -14,8 +14,8 @@ class Graph:
 
     def __repr__(self):
         graph_str = ""
-        for node in self.graph:
-            graph_str += f"{node} -> {self.graph[node]}\n"
+        for node, connected_nodes in self.graph.items():
+            graph_str += f"{node} -> {connected_nodes}\n"
         return graph_str
 
     def bfs(self, start_node):
